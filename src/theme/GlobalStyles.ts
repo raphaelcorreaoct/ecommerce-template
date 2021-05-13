@@ -13,4 +13,12 @@ export const GlobalStyle = createGlobalStyle`
         margin: 0 auto;
     }
 
+    .main-slide {
+        img {
+            width: 100%;
+            height: auto;
+            margin: 0 auto;
+        }
+    }
+
 `

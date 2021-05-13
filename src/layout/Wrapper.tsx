@@ -1,11 +1,14 @@
-import React from 'react';
+import React from "react";
 
-const Wrapper = () => {
-    return (
-        <div>
-            
-        </div>
-    );
-}
+import Header from "./Header";
+import Footer from "./Footer";
 
-export default Wrapper;
+export const Wrapper: React.FC = ({ children }) => {
+  return (
+    <>
+      <Header />
+      <main>{children}</main>
+      <Footer />
+    </>
+  );
+};
