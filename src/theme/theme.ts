@@ -6,6 +6,7 @@ const THEME = {
     textSecondary: '#8C8C8C',
     title: '#C4C4C4',
     onBrand: '#fff',
+    borderColor: '#8C8C8C'
   },
 };
 
